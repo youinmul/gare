@@ -11,7 +11,7 @@ void loop() {
   digitalWrite(led, 0);
   delay(1000);
 
-  for (int i = 0; i < 6; i++) {
+  for (int i = 0; i < 5; i++) {
     digitalWrite(led, 0);
     delay(100);  
     digitalWrite(led, 1);
